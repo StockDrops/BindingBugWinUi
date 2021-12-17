@@ -1,0 +1,16 @@
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BindingBugWinUi.Views.TabbedPageExample"
+             xmlns:views="clr-namespace:BindingBugWinUi.Views"
+             BackgroundColor="{DynamicResource SecondaryColor}">
+    <TabbedPage.Children>
+        <ContentPage
+            Title="1">
+            <!--<views:ContentViewTest Grid.Row="0"/>-->
+        </ContentPage>
+        <ContentPage Title="2">
+            
+        </ContentPage>
+    </TabbedPage.Children>
+    
+</TabbedPage>
